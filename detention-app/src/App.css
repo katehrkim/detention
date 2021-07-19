@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+html {
+  background: -webkit-linear-gradient(90deg, #485563 10%, #29323c 90%);
+  background: -moz-linear-gradient(90deg, #485563 10%, #29323c 90%);
+  background: -ms-linear-gradient(90deg, #485563 10%, #29323c 90%);
+  background: -o-linear-gradient(90deg, #485563 10%, #29323c 90%);
+  background: linear-gradient(90deg, #485563 10%, #29323c 90%);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden
+}
+
+body {
+  font-size: 15px;
+  color: #E8E8E8;
+  font-family: "Walter Turncoat", cursive;
+  display: block;
+  width: 80%;
+  height: 80%;
+  min-height: auto;
+  margin: 30px auto 0 auto;
+  background-color: #497959;
+  padding: 20px 30px;
+  overflow-y: auto;
+  box-shadow: -1px 2px 2px 0px #555, inset 0 0 10px 0 #555;
+  -webkit-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  border: #B78240 solid 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
